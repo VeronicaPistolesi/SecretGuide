@@ -1,0 +1,6 @@
+0 Torre
+1 Duomo
+2 Battistero
+3 Piazza dei Cavalieri
+4 Chiesa della Spina
+5 Palazzo Blu

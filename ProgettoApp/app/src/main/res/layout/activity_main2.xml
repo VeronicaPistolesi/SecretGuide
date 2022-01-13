@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2">
+
+        <ImageButton
+            android:id="@+id/imageView"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lente"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:srcCompat="@drawable/lente"
+            tools:srcCompat="@drawable/lente" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:text="Curiosità_Finale"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.063" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Curiosità_5"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Curiosità_6"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView22"
+            app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Curiosità_3"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView19"
+            app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Curiosità_4"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+        <ImageButton
+            android:id="@+id/imageView22"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lente"
+            app:layout_constraintStart_toStartOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:srcCompat="@drawable/lente"
+            tools:srcCompat="@drawable/lente" />
+
+        <ImageButton
+            android:id="@+id/imageView21"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lente"
+            app:layout_constraintStart_toStartOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
+            app:srcCompat="@drawable/lente"
+            tools:srcCompat="@drawable/lente" />
+
+        <ImageButton
+            android:id="@+id/imageView20"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lente"
+            app:layout_constraintStart_toStartOf="@+id/textView24"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            app:srcCompat="@drawable/lente"
+            tools:srcCompat="@drawable/lente" />
+
+        <ImageButton
+            android:id="@+id/imageView19"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lente"
+            app:layout_constraintStart_toStartOf="@+id/textView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            app:srcCompat="@drawable/lente"
+            tools:srcCompat="@drawable/lente" />
+
+        <ImageButton
+            android:id="@+id/imageView18"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lente"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            app:srcCompat="@drawable/lente"
+            tools:srcCompat="@drawable/lente" />
+
+        <ImageButton
+            android:id="@+id/imageView17"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="30dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lente"
+            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/lente"
+            tools:srcCompat="@drawable/lente" />
+
+        <ImageButton
+            android:id="@+id/imageView10"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/palazzoblu1"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:srcCompat="@drawable/palazzoblu1"
+            tools:srcCompat="@drawable/palazzoblu1" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Palazzo Blu"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <ImageButton
+            android:id="@+id/imageView9"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/chiesadellaspina1"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:srcCompat="@drawable/chiesadellaspina1"
+            tools:srcCompat="@drawable/chiesadellaspina1" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Chiesa della Spina"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+        <ImageButton
+            android:id="@+id/imageView8"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/piazzadeicavalieri1"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:srcCompat="@drawable/piazzadeicavalieri1"
+            tools:srcCompat="@drawable/piazzadeicavalieri1" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Piazza Cavalieri"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <ImageButton
+            android:id="@+id/imageView7"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/battistero1"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:srcCompat="@drawable/battistero1"
+            tools:srcCompat="@drawable/battistero1" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Battistero"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/duomo1"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:srcCompat="@drawable/duomo1"
+            tools:srcCompat="@drawable/duomo1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Duomo"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Da scoprire:"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Da visitare:"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView7"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:layout_width="148dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="30dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/torre1"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:srcCompat="@drawable/torre1"
+            tools:srcCompat="@drawable/torre1" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Torre Pendente"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Curiosità_2"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView18"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
